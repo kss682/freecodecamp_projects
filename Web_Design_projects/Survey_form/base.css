@@ -1,0 +1,56 @@
+#title{
+	text-align:center;
+	text-size:32;
+	font-weight:strong;
+	font-family:verdana;
+}
+#description{
+	text-align:justify;
+	font-size:12;
+}
+#survey-form{
+	text-align:justify;
+	border-color:black;
+	border-style:solid;
+}
+#name-label{
+	font-family:Arial;
+	padding-top:20px;
+	padding-left:20px;
+}
+#email-label{
+	font-family:Arial;
+	padding-top:20px;
+	padding-left:20px;
+}
+#number-label{
+	font-family:Arial;
+	padding-top:20px;
+	padding-left:20px;
+}
+#stream-label{
+	font-family:Arial;
+	padding-top:20px;
+	padding-left:20px;
+}
+#section-label{
+	font-family:Arial;
+	padding-top:20px;
+	padding-left:20px;
+}
+#hobby-label{
+	font-family:Arial;
+	padding-top:20px;
+	padding-left:20px;
+}
+#detail-label{
+	font-family:Arial;
+	margin-top:20px;
+	margin-left:20px;
+}
+#submit{
+	font-family:Arial;
+	margin-top:20px;
+	margin-left:20px;
+	margin-bottom:10px;
+}
