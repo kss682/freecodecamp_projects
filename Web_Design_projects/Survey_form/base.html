@@ -1,5 +1,7 @@
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel='stylesheet' type='text/css' href='base.css'>
 	<title>Survey Form</title>
 <head>
@@ -8,14 +10,14 @@
 	<p id='description'>
 		This is a sample form .
 		Please fill the details.
-	</p>	
+	</p>
 	<form id='survey-form'>
-		<label id ='name-label' for='name'>Name</label> 
+		<label id ='name-label' for='name'>Name</label>
 		<input type='text' id='name' name='name' placeholder='Name'><br><br>
-		<label id='email-label' for='label'>Email</label> 
+		<label id='email-label' for='label'>Email</label>
 		<input type='email' id='email' name='email' placeholder='Email'><br><br>
-		<label id='number-label' for='number'>Number</label> 
-		<input type='number' id='number' max=100 min=0 name='number' placeholder=0><br><br>	
+		<label id='number-label' for='number'>Number</label>
+		<input type='number' id='number' max=100 min=0 name='number' placeholder=0><br><br>
 		<label id='stream-label' for='stream'>Stream</label>
 		<select name='stream' placeholder='Stream' id='dropdown'>
 			<option>CS</option>
@@ -33,9 +35,9 @@
 		<label id='detail-label' for='detail-label'>Details</label><br>
 		<textarea id='detail-label' value='text' placeholder='write'  rows=10 cols=20></textarea>
 		<br><br>
-		<input id='submit' type='button' name='Submit' value='Submit'>
-		
-			
-	</form>	
-<body>	
-</html>  
+		<button type="button" class="btn btn-info" id="submit" >submit</button>
+
+
+	</form>
+<body>
+</html>
