@@ -1,0 +1,33 @@
+.container-fluid{
+  text-align: center;
+  align-content: center;
+  padding-top: 240px;
+}
+
+.heading{
+  text-align: center;
+  align-content: center;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("pic.jpg");
+
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search{
+  height:45px;
+  font-size:30pt;
+  margin-top: 10px;
+}
