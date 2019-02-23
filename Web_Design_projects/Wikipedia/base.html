@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="base.css">
+  <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    -->
+    <script>
+      function change(){
+        var name = document.getElementById("search").value;
+        href = "https://en.wikipedia.org/wiki" + name +'/';
+        document.getElementById("href").href = href;
+      };
+    </script>
+    <title>Wiki</title>
+  </head>
+  <body class="bg">
+    <h1 class="heading">Wikipedia</h1>
+    <div class="container-fluid">
+        <a class = 'btn btn-primary btn-lg' href="https://en.wikipedia.org/wiki/Special:Random" role="button">Explore</a><br>
+        <input type="text" name="search" value="search" id = "search">
+        <a  class = "btn btn-primary btn-lg" role="button" id = "href" onclick="change()">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </a>
+
+  </body>
+</html>
